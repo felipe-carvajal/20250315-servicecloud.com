@@ -1,4 +1,4 @@
-global class Transunion_WebsiteRAG {
+global class Transunion_WebsiteRAG1 {
     @AuraEnabled
     global static String generateChat(String prompt) {
         String responseText = braveSearch(prompt);
